@@ -1,46 +1,10 @@
-h1, h2, h3, h4{
-    text-align:center;
-    font-size: 25px;
-    color: blueviolet; 
-}
-.hobby{
-    width: 300px;
-    
-}
-
-p{
-
-    color: gray;
-}
-.life{
-    padding: 0px 50px 0px 40px;
-    background-color: aqua;
-    border: 2px solid salmon;
-    margin: 8px;
-}
-.life1{
-    padding: 0px 50px 0px 40px;
-    margin: 8px;
-    background-color: blue;
-    border: 2px solid brown
-    
-}
-.life2{
-    padding: 0px 50px 0px 50px;
-    margin: 8px;
-  background-color: chartreuse;
-  border: 2px solid cyan;  
-  
-} 
-.life3{
+.block1{
     border: 1px solid black;
-    background-color: white;
-    margin: 8px;
-    padding: 0px 100px 0px 550px;
+    width: 500px;
+    height: 300px;
+    background-size: 50px;
+    background-image: ur1('https://i.natgeofe.com/n/548467d8-c5f1-4551-9f58-6817a8d2c45e/NationalGeographic_2572187_square.jpg');
 }
-.life3 img{
-    width: 80px;
-}
-#photo{
-    width: 40px;
+p, h1{
+    color: brown;
 }
