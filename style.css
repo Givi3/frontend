@@ -1,35 +1,15 @@
-.p1{
-
-    color: blue;
-    text-decoration: none;
-    line-height: 40px;
+.block{
+    border: 1px solid black;
+    width: 1300px;
+    height: 3300px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpAwtjwT_FJlD3tFKZbSJ4dltELQ3WaEqnjTx0IdNY2TlNgvBmjncsmh4GIfFZyU4-ygM&usqp=CAU');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-attachment: fixed;
+   
 }
 
-.p2{
-    color: red;
-    line-height: 40px;
-
-    }
-
-.p3{
-    text-decoration: none;
-    line-height: 40px;
-}
-
-.p1:hover{
-    color: green;
-    text-decoration: underline;
-
-}
-
-.p2:hover{
-    color: blue;
-    text-decoration: line-through;
-
-}
-
-.p3:hover{
-    color: red;
-    text-decoration: overline;
-
+p{
+   width: 500px;
+   
 }
