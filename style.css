@@ -5,36 +5,42 @@
 }
 
 .block{
-    border: 2px dotted  black;
+    border: 2px dotted black;
     width: 800px;
-    height: 600px;
-    
+    height: 350px;
 }
+
 .block1{
     border: 1px solid red;
     width: 70px;
     height: 70px;
+    background-color: red;
     position: relative;
-    left: 70px;
-    top: 60px
-    
-    
+    top: 70px;
+    left: 80px;
+    z-index: 2;
+    /* z-index: 1; */
 }
 
 .block2{
-    border: 1px solid blue;
-    width: 70px;
-    height: 70px;
-    position: relative;
-    left: 160px;
-    top: 90px;
+  border: 1px solid blue;
+  background-color: blue;
+  height: 70px;
+  width: 70px;
+  position: relative;
+  top: 40px;
+  left: 120px;
+  z-index: 1;
+
 }
 
 .block3{
-    border: 1px solid green;
-    width: 70px;
-    height: 70px;
-    position: relative;
-    left: 260px;
-    top: 110px;
+  border: 1px solid greenyellow;
+  background-color: greenyellow;
+  width: 70px;
+  height: 70px;
+  position: relative;
+  left: 160px;
+  top: 15px;
+
 }
